@@ -1,0 +1,40 @@
+baseURL = "https://dorianperkins.github.io/"
+title = "Dorian Perkins"
+theme = "hugo-coder"
+languageCode = "en"
+
+# Single resume site: no blog, tags, or feeds.
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe = true
+# Treat single newlines as line breaks so resume entries stay on separate lines.
+hardWraps = true
+
+[params]
+author = "Dorian Perkins"
+description = "Dorian Perkins —  Software Engineer"
+keywords = "distributed systems,software engineer"
+info = ["Software Engineer", "Currently at Netflix, previously Uber"]
+avatarURL = "images/profile.jpg"
+since = 2026
+colorScheme = "auto"
+hideColorSchemeToggle = false
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 1
+url = "https://www.linkedin.com/in/dorianperkins/"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/dorianperkins"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa-brands fa-google-scholar fa-2x"
+weight = 2
+url = "https://scholar.google.com/citations?user=j41kJf0AAAAJ"
